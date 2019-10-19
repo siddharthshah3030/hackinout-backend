@@ -4,16 +4,17 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
+        "client": "mongo",
         "database": "deployml",
-        "host": "127.0.0.1",
+        "host": "ds137368.mlab.com",
         "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
+        "port": 37368,
+        "username": "codevector123",
+        "password": "codevector123"
       },
       "options": {
-        "authenticationDatabase": ""
-      }
+        "ssl": "false",
+        "authenticationDatabase": "deployml"      }
     }
   }
 }
