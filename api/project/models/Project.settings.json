@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "project",
+  "info": {
+    "name": "project",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "typeproject": {
+      "type": "string"
+    },
+    "typemodel": {
+      "type": "string"
+    },
+    "classes": {
+      "type": "json"
+    },
+    "modelfile": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "channels": {
+      "type": "integer"
+    },
+    "architecture": {
+      "type": "string"
+    }
+  }
+}
